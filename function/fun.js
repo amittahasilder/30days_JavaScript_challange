@@ -10,3 +10,11 @@ function greet(name) {   // 'name' is a parameter
 }
 
 greet("Alice");  // "Alice" is the argument
+
+
+function greet() {
+  return "Hello!";
+}
+console.log(greet());
+
+
