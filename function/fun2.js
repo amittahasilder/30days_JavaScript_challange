@@ -32,7 +32,3 @@ console.log(greet());
 
 
 
-// iife
-(function(){
-    console.log("this is the name ")
-})();
