@@ -15,3 +15,9 @@ function add (a,b){
 let result = add(5,10);
 
 console.log(result);
+
+// 2. Anonymous Function
+const greet = function(){
+    return "Hi there?"
+}
+console.log(greet());
