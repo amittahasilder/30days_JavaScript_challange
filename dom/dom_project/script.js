@@ -32,6 +32,14 @@ const questions = [
       "getClass()",
       "selectElement()",
     ],
+    
+
+    answer: 1,
+  },
+
+  {
+    question: "Who created JavaScript?",
+    options: ["Google", "Brendan Eich", "Microsoft", "Apple"],
     answer: 1,
   },
 ];
