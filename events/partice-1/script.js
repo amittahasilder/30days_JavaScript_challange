@@ -1,5 +1,11 @@
   let h1 =document.querySelector('h1');
 
   window.addEventListener("keydown", function (dets){
-    h1.textContent=dets.key;
+    if(dets.key === ""){
+        h1.textContent= "SPC"; 
+        console.log("h1");
+    } else{
+     h1.textContent=dets.key;
+    }
+   
   })
