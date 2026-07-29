@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: green;
+            color: white;
+            margin: auto;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .box {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">GeeksforGeeks</div>
+    <script>
+        // Saving data as key/value pair
+        localStorage.setItem("name", "GeeksforGeeks");
+        localStorage.setItem("color", "green");
+
+        // Updating data
+        localStorage.setItem("name", "GeeksforGeeks(GfG)");
+        localStorage.setItem("color", "Blue");
+
+        // Get the data by key
+        let name = localStorage.getItem("name");
+        console.log("This is - ", name);
+        let color = localStorage.getItem("color");
+        console.log("Value of color is - ", color);
+        let key1 = localStorage.key(1);
+        let items = localStorage.length;
+        console.log("Total number of items is ", items);
+        localStorage.removeItem("color");
+        items = localStorage.length;
+        console.log("After removal, total number of items is ", items);
+        localStorage.clear();
+        console.log("After clearing all items, total items: ", localStorage.length);
+    </script>
+</body>
+</html>
