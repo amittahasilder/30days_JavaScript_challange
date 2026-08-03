@@ -1,11 +1,21 @@
-function greet ( name, callback){
-    console.log("hello"+ name);
+function greet(name, callback){
+    console.log("Hello",name);
+
     callback();
 }
 
 function bye(){
-    console.log("bye");
-
+    console.log("Good Bye");
 }
 
-greet("Rahim", bye);
+greet("Rahim",bye);function greet(name, callback){
+    console.log("Hello",name);
+
+    callback();
+}
+
+function bye(){
+    console.log("Good Bye");
+}
+
+greet("Rahim",bye);
