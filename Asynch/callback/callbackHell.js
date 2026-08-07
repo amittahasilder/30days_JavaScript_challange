@@ -6,7 +6,7 @@ login(function () {
 
             getComments(function () {
 
-                console.log("Done");
+                console.log("Donee");
 
             });
 
